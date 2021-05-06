@@ -23,10 +23,7 @@ def prescription_view(request, branch):
                 new_pres_id = 0
 
                 p_type = 0
-                p_type_str = request.POST.get("p_type")
-
-                if p_type_str == "Treatment":
-                    p_type = 1
+                p_type = request.POST.get("p_type")
 
                 params = [
                     request.POST.get("id"),
