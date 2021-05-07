@@ -59,7 +59,7 @@ Login doctor
     Prescription Type : Diagnosis
     Diagnosis Id: 4
     Medicine(s) : 2|3              (* Cisplatin | Oxaplating *)
-    Quantity: 1|4.5
+    Quantity: 1|4
 
     (Click on see prescription to show prescription report)
     Show Prescription:
@@ -132,10 +132,13 @@ Patient Return For treatment
     Prescription Type: Treatment
     Id: 3
     Medicine(s) : 1|4
-    Quantity : 2.5|1.5
+    Quantity : 2|1
 
     Show Prescription:
       Prescription Id: 7
+      
+    Show Bills:
+    	Bill number:10
 
 ----------------------------------------------------------------------------------------------------
 
